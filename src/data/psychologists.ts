@@ -1,0 +1,88 @@
+import { Psychologist } from "@/types/psychologist";
+
+export const psychologists: Psychologist[] = [
+  {
+    id: "1",
+    name: "Dr. Priya Sharma",
+    title: "Clinical Psychologist",
+    specializations: ["Anxiety", "Depression", "Relationships"],
+    experience: 8,
+    rating: 4.8,
+    totalSessions: 1200,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Priya specializes in cognitive behavioral therapy and has extensive experience helping clients overcome anxiety and depression.",
+    languages: ["Hindi", "English", "Punjabi"],
+    availability: ["Mon-Fri: 9 AM - 6 PM", "Sat: 10 AM - 4 PM"],
+    calendlyLink: "https://calendly.com/dr-priya-sharma"
+  },
+  {
+    id: "2",
+    name: "Dr. Rajesh Kumar",
+    title: "Behavioral Therapist",
+    specializations: ["Stress Management", "ADHD", "Addiction"],
+    experience: 12,
+    rating: 4.9,
+    totalSessions: 2000,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Rajesh has over a decade of experience in behavioral therapy and specializes in stress management and addiction recovery.",
+    languages: ["Hindi", "English"],
+    availability: ["Mon-Sat: 8 AM - 8 PM"],
+    calendlyLink: "https://calendly.com/dr-rajesh-kumar"
+  },
+  {
+    id: "3",
+    name: "Dr. Anita Verma",
+    title: "Marriage & Family Therapist",
+    specializations: ["Couples Therapy", "Family Counseling", "Communication"],
+    experience: 6,
+    rating: 4.7,
+    totalSessions: 800,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Anita focuses on strengthening relationships through effective communication and understanding.",
+    languages: ["Hindi", "English", "Gujarati"],
+    availability: ["Tue-Sat: 10 AM - 7 PM"],
+    calendlyLink: "https://calendly.com/dr-anita-verma"
+  },
+  {
+    id: "4",
+    name: "Dr. Vikram Singh",
+    title: "Trauma Specialist",
+    specializations: ["PTSD", "Trauma Recovery", "Grief Counseling"],
+    experience: 10,
+    rating: 4.9,
+    totalSessions: 1500,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Vikram specializes in trauma-informed therapy and has helped numerous clients overcome PTSD and grief.",
+    languages: ["Hindi", "English"],
+    availability: ["Mon-Fri: 9 AM - 5 PM"],
+    calendlyLink: "https://calendly.com/dr-vikram-singh"
+  },
+  {
+    id: "5",
+    name: "Dr. Meera Agarwal",
+    title: "Child Psychologist",
+    specializations: ["Child Therapy", "Autism", "Learning Disabilities"],
+    experience: 9,
+    rating: 4.8,
+    totalSessions: 1000,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Meera specializes in working with children and adolescents, helping them navigate emotional and behavioral challenges.",
+    languages: ["Hindi", "English"],
+    availability: ["Mon-Fri: 10 AM - 6 PM", "Sat: 9 AM - 1 PM"],
+    calendlyLink: "https://calendly.com/dr-meera-agarwal"
+  },
+  {
+    id: "6",
+    name: "Dr. Arjun Patel",
+    title: "Cognitive Behavioral Therapist",
+    specializations: ["CBT", "Panic Disorders", "Social Anxiety"],
+    experience: 7,
+    rating: 4.6,
+    totalSessions: 900,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Arjun uses evidence-based CBT techniques to help clients manage panic disorders and social anxiety.",
+    languages: ["Hindi", "English", "Gujarati"],
+    availability: ["Mon-Sat: 9 AM - 7 PM"],
+    calendlyLink: "https://calendly.com/dr-arjun-patel"
+  }
+];
