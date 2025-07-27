@@ -71,7 +71,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 10AM-6PM"],
     totalSessions: 800,
     calendlyLink: "https://calendly.com/rasika-godbole",
-    image: "/lovable-uploads/b84747ab-da01-4e65-9477-8177a48a3dc7.png"
+    image: "/lovable-uploads/129d0283-467d-4ef1-808d-b79865b95a07.png"
 
   },
   {
@@ -128,6 +128,6 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Fri: 10AM-6PM"],
     totalSessions: 1200,
     calendlyLink: "https://calendly.com/dr-madalsa-agrawal",
-    image: "/lovable-uploads/129d0283-467d-4ef1-808d-b79865b95a07.png"
+    image: "/lovable-uploads/b84747ab-da01-4e65-9477-8177a48a3dc7.png"
   }
 ];
