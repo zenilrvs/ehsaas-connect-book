@@ -89,21 +89,16 @@ We offer a wide range of therapists, each with unique expertise, language skills
                     </div>
                   </div>
                   <div className="md:col-span-2">
-                    <h3 className="text-2xl font-bold text-foreground mb-4">Dr. [Founder Name]</h3>
+                    <h3 className="text-2xl font-bold text-foreground mb-4">Priyadarshini Sethia</h3>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                      With over [X] years of experience in clinical psychology and mental health advocacy, our founder 
-                      recognized the urgent need for accessible, quality mental health care in our communities. Having 
-                      witnessed firsthand the transformative power of therapy, they founded EHSAAS to ensure that 
-                      geographical, financial, and social barriers never prevent someone from getting the help they need.
+                   As a psychologist, Priyadarshini firmly believes that a sense of safety is the foundation of healing. She is dedicated to creating a space where individuals, regardless of whether they identify as queer, neurodivergent, are exploring their identity, or are simply navigating their emotions, can feel a true sense of belonging. She emphasizes that every story is important and all feelings deserve acknowledgment.
                     </p>
                     <p className="text-lg text-muted-foreground leading-relaxed mb-4">
-                      Dr. [Name] holds a [Degree] from [Institution] and is a licensed clinical psychologist specializing 
-                      in [Specializations]. Their passion for mental health extends beyond individual practice to systemic 
-                      change, working to destigmatize mental health conversations in our society.
+                      The inspiration for Ehsaas Therapy Centre arose not only from her passion for therapy but also from her observations during her training. Priyadarshini witnessed the challenges faced by psychology students and interns, including overwork, underpayment and instances of exploitation, such as having to pay for internships without gaining meaningful experience. This awareness motivated her to establish a different kind of space—one that prioritizes the well-being of both clients and mental health professionals alike. At ETC, therapists are deeply valued, fairly compensated, and receive the same level of support they are expected to provide to others.
+
                     </p>
                     <p className="text-lg text-muted-foreground leading-relaxed">
-                      "Mental health is not a luxury, it's a necessity. Everyone deserves to feel heard, understood, 
-                      and supported on their journey to wellness." - Dr. [Founder Name]
+                      At its core, Priyadarshini's philosophy is rooted in kindness, inclusivity, and the transformative power of feeling genuinely understood. She is dedicated to the idea that healing is possible for everyone and nobody should have to do it alone. Through Ehsaas Therapy Centre, Priyadarshini is committed to showing up for her clients, her fellow therapists, and a world where everyone can experience greater connectedness and deeper healing. 
                     </p>
                   </div>
                 </div>
