@@ -71,7 +71,8 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 10AM-6PM"],
     totalSessions: 800,
     calendlyLink: "https://calendly.com/rasika-godbole",
-    image: "/lovable-uploads/77840dcc-8f17-4f1c-9278-f9b56f1efc73.png"
+    image: "/lovable-uploads/b84747ab-da01-4e65-9477-8177a48a3dc7.png"
+
   },
   {
     id: "6",
@@ -113,7 +114,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 9AM-6PM"],
     totalSessions: 1000,
     calendlyLink: "https://calendly.com/priyadarshini-sethia",
-    image: "/lovable-uploads/b84747ab-da01-4e65-9477-8177a48a3dc7.png"
+    image: "/lovable-uploads/77840dcc-8f17-4f1c-9278-f9b56f1efc73.png"
   },
   {
     id: "9",
