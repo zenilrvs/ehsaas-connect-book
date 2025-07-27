@@ -1,3 +1,4 @@
+
 import { Mail, Phone, Instagram, MapPin, Clock, Send } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -118,7 +119,7 @@ const Contact = () => {
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold text-foreground mb-6">Contact Information</h3>
                   <div className="space-y-6">
-                    {contactInfo.map((info, index) => <a key={index} href={info.href} target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 p-4 rounded-lg hover:bg-muted/50 transition-colors group">
+                    {contactInfo.map((info, index) => <a key={index} href={info.href} target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 p-2 rounded-lg hover:bg-muted/50 transition-colors group">
                         <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                           <info.icon className="w-6 h-6 text-primary" />
                         </div>
@@ -167,7 +168,7 @@ const Contact = () => {
                 <p className="text-destructive/80 mb-4">In case you are feeling suicidal or are in a crisis, please reach out to Tele-MANAS at 14416/ 18008914416 or call 108 to request an ambulance anywhere in India.
 
 
-For anything else, leave a message above and we will get back to you at the earliest. </p>
+For anything else, leave a message above and we will get back to you at the earliest. </p>
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Button variant="destructive" asChild>
                     <a href="tel:112">Emergency Services: 108</a>
