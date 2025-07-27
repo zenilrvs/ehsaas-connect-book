@@ -10,7 +10,7 @@ const Services = () => {
       icon: Users,
       title: "Individual Therapy",
       description: "One-on-one sessions with psychologists to address personal challenges, mental health concerns, and life transitions.",
-      features: ["Personalized treatment plans", "Confidential sessions", "Flexible scheduling", "Evidence-based approaches"]
+      features: ["Personalised treatment plans", "Confidential sessions", "Flexible scheduling", "Evidence-based approaches"]
     },
     {
       icon: Heart,
