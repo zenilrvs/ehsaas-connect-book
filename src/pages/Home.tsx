@@ -66,7 +66,7 @@ const Home = () => {
             Feel the healing within
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90">
-            Professional, confidential, and accessible therapy for your mental wellness journey
+            Compassionate, inclusive and accessible therapy for your mental health journey
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" className="text-lg px-8 py-6">
