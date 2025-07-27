@@ -117,27 +117,34 @@ We offer a wide range of therapists, each with unique expertise, language skills
           {/* Values */}
           <div className="text-center">
             <h2 className="text-3xl font-bold text-foreground mb-12">Our Core Values</h2>
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <Heart className="w-8 h-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Compassion</h3>
-                <p className="text-muted-foreground">We approach every interaction with empathy, understanding, and genuine care.</p>
+                <h3 className="text-xl font-semibold mb-3">Compassionate Accessibility</h3>
+                <p className="text-muted-foreground">We ensure mental health care is accessible with empathy and understanding at its core.</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Target className="w-8 h-8 text-secondary" />
+                  <Eye className="w-8 h-8 text-secondary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Excellence</h3>
-                <p className="text-muted-foreground">We maintain the highest standards of professional care and ethical practice.</p>
+                <h3 className="text-xl font-semibold mb-3">Affirming Diversity</h3>
+                <p className="text-muted-foreground">We celebrate and affirm all identities, creating inclusive spaces for everyone.</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <Eye className="w-8 h-8 text-accent" />
+                  <Target className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Accessibility</h3>
-                <p className="text-muted-foreground">We believe mental health care should be available to everyone, everywhere.</p>
+                <h3 className="text-xl font-semibold mb-3">Holistic Healing</h3>
+                <p className="text-muted-foreground">We address the whole person, nurturing mind, body, and spirit in the healing process.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <User className="w-8 h-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Therapist Well-being</h3>
+                <p className="text-muted-foreground">We prioritize the well-being and fair treatment of our mental health professionals.</p>
               </div>
             </div>
           </div>
