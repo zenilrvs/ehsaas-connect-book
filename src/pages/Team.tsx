@@ -73,7 +73,7 @@ const Team = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold text-foreground mb-6">Our Expert Team</h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Meet our team of licensed, experienced psychologists who are here to support your mental health journey
+              Meet our team of empathetic, experienced psychologists who are here to support your mental health journey
             </p>
           </div>
 
