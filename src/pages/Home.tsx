@@ -19,31 +19,28 @@ const Home = () => {
     },
     {
       icon: Users,
-      title: "Group Therapy",
-      description: "Connect with others on similar healing journeys",
+      title: "Training",
+      description: "Helping young professionals to bridge the gap between theoretical knowledge and practical skills",
     },
     {
       icon: Clock,
-      title: "Flexible Scheduling",
-      description: "Book sessions at your convenience",
+      title: "Supervision",
+      description: "Enhancing therapist competancy, and professional development",
     },
   ];
 
   const testimonials = [
     {
-      name: "Priya M.",
+      name: "PM",
       text: "EHSAAS helped me through my darkest times. The therapists are incredibly caring and professional.",
-      rating: 5,
     },
     {
-      name: "Rahul K.",
+      name: "RK",
       text: "The couple therapy sessions saved my marriage. We learned to communicate better and understand each other.",
-      rating: 5,
     },
     {
-      name: "Anjali S.",
-      text: "Flexible scheduling and online sessions made it so convenient for me to get the help I needed.",
-      rating: 5,
+      name: "ZS",
+      text: "Priyadarshini is an amazing psychologist. She helped me recoup from anxiety, and patiently heard all my issues without any judgements",
     },
   ];
 
