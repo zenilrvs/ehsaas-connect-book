@@ -128,6 +128,6 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Fri: 10AM-6PM"],
     totalSessions: 1200,
     calendlyLink: "https://calendly.com/dr-madalsa-agrawal",
-    image: "/lovable-uploads/129d0283-467d-4ef1-808d-b79865b95a07.png"
+    image: "/lovable-uploads/2bd68b7a-8cfb-44b2-bc0b-66479749297a.png"
   }
 ];
