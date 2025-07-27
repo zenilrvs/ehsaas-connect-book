@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import ehsaasLogo from "@/assets/ehsaas-logo.png";
+
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={ehsaasLogo} alt="EHSAAS" className="h-10 w-10" />
+            <img src="/lovable-uploads/c25d1384-6c00-42cb-b0bb-7157d822376b.png" alt="EHSAAS" className="h-12 w-auto" />
             <span className="text-xl font-bold text-primary">EHSAAS</span>
           </Link>
 
