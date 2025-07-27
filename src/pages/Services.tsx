@@ -31,7 +31,7 @@ const Services = () => {
       icon: Building,
       title: "EAP (Employee Assistance Program)",
       description: "Comprehensive mental health support for organizations to improve employee wellbeing and productivity.",
-      features: ["24/7 helpline", "Confidential counseling", "Workplace workshops", "Stress management programs"]
+      features: ["24/7 helpline", "Confidential counselling", "Workplace workshops", "Stress management programs"]
     },
     {
       icon: Palette,
