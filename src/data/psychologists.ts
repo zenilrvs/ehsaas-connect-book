@@ -84,5 +84,19 @@ export const psychologists: Psychologist[] = [
     languages: ["Hindi", "English", "Gujarati"],
     availability: ["Mon-Sat: 9 AM - 7 PM"],
     calendlyLink: "https://calendly.com/dr-arjun-patel"
+  },
+  {
+    id: "7",
+    name: "Dr. Sethia",
+    title: "Clinical Psychologist",
+    specializations: ["Anxiety", "Depression", "Mindfulness"],
+    experience: 5,
+    rating: 4.7,
+    totalSessions: 650,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Sethia specializes in mindfulness-based therapy and helps clients develop coping strategies for anxiety and depression.",
+    languages: ["Hindi", "English"],
+    availability: ["Mon-Fri: 10 AM - 6 PM"],
+    calendlyLink: "https://calendly.com/dr-sethia"
   }
 ];
