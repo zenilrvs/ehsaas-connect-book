@@ -1,14 +1,14 @@
-
 import { Mail, Phone, Instagram, MapPin, Clock, Send } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Navigation from "@/components/Navigation";
+
 const Contact = () => {
   const contactInfo = [{
     icon: Mail,
-    title: "Email",
+    title: "Email", 
     value: "sessions.ehsaas@gmail.com",
     description: "Send us your questions anytime",
     href: "mailto:sessions.ehsaas@gmail.com"
@@ -119,7 +119,7 @@ const Contact = () => {
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold text-foreground mb-6">Contact Information</h3>
                   <div className="space-y-6">
-                    {contactInfo.map((info, index) => <a key={index} href={info.href} target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 p-2 rounded-lg hover:bg-muted/50 transition-colors group">
+                    {contactInfo.map((info, index) => <a key={index} href={info.href} target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 pl-1 pr-2 py-2 rounded-lg hover:bg-muted/50 transition-colors group">
                         <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                           <info.icon className="w-6 h-6 text-primary" />
                         </div>
