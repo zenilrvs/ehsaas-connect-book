@@ -71,7 +71,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 10AM-6PM"],
     totalSessions: 800,
     calendlyLink: "https://calendly.com/rasika-godbole",
-    image: "/lovable-uploads/b84747ab-da01-4e65-9477-8177a48a3dc7.png"
+    image: "/lovable-uploads/b2b01097-9200-47ac-8132-d70414910d22.png"
     
   },
   {
