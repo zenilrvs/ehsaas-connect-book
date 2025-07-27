@@ -1,5 +1,6 @@
 import { Heart, Target, Eye, User } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import Navigation from "@/components/Navigation";
 
 const About = () => {
@@ -84,9 +85,16 @@ We offer a wide range of therapists, each with unique expertise, language skills
                 </div>
                 <div className="grid md:grid-cols-3 gap-8 items-center">
                   <div className="md:col-span-1">
-                    <div className="w-48 h-48 mx-auto bg-gradient-hero rounded-full flex items-center justify-center">
-                      <User className="w-24 h-24 text-white" />
-                    </div>
+                    <Avatar className="w-48 h-48 mx-auto">
+                      <AvatarImage 
+                        src="/lovable-uploads/9549b643-3ac0-4a93-9c8b-9e4affbc9d65.png" 
+                        alt="Priyadarshini Sethia - Founder"
+                        className="object-cover"
+                      />
+                      <AvatarFallback className="bg-gradient-hero">
+                        <User className="w-24 h-24 text-white" />
+                      </AvatarFallback>
+                    </Avatar>
                   </div>
                   <div className="md:col-span-2">
                     <h3 className="text-2xl font-bold text-foreground mb-4">Priyadarshini Sethia</h3>
