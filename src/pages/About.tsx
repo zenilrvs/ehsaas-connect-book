@@ -26,7 +26,7 @@ const About = () => {
                   <h2 className="text-3xl font-bold text-foreground">About EHSAAS</h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  EHSAAS, meaning "feelings" in Hindi and Urdu, represents our deep understanding of the human emotional experience. <br />
+                  EHSAAS, meaning "feelings" in Hindi and Urdu, represents our deep understanding of the human emotional experience. 
                   We are a mental health platform that bridges the gap between those seeking help and qualified mental health professionals.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -36,7 +36,7 @@ const About = () => {
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Our platform offers a comprehensive range of services including individual therapy, couples counseling, group sessions, 
-                  and specialized programs for different life stages and challenges. <br /> Every session is conducted by licensed professionals 
+                  and specialized programs for different life stages and challenges. Every session is conducted by licensed professionals 
                   who are committed to creating a non-judgmental, supportive environment.
                 </p>
               </CardContent>
@@ -52,10 +52,12 @@ const About = () => {
                   <h2 className="text-3xl font-bold text-foreground">Our Mission</h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  To make quality mental health care accessible to everyone by connecting individuals with compassionate, 
-                  qualified therapists in a convenient, confidential, and culturally sensitive environment. We strive to 
-                  break down barriers to mental health treatment and create a world where seeking help is seen as a sign 
-                  of strength, not weakness.
+                  <ul>
+                    <li>To provide accessible, inclusive, and high-quality therapy rooted in safety, empathy, and respect.</li>
+                    <li>To create emotionally safe and empowering spaces for both clients and mental health professionals.</li>
+                    <li>To offer trauma-informed, queer-affirmative, neurodivergent-aware, and sex-positive therapy from skilled, diverse practitioners.</li>
+                    <li>To remind everyone that they are more than their pain and that healing leads to more: more growth, more connection, more freedom, and more life to experience.</li>
+                  </ul>
                 </p>
               </CardContent>
             </Card>
@@ -67,11 +69,10 @@ const About = () => {
                   <h2 className="text-3xl font-bold text-foreground">Our Vision</h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  <ul>To be the leading mental health platform that transforms lives by making therapy as normal and accessible 
-                  as visiting a doctor for physical health. </ul> 
-                  <ul> We envision a society where mental wellness is prioritized, 
-                  stigma is eliminated, and every individual has the tools and support they need to live their fullest, 
-                  most authentic life.</ul>
+                <ul>
+                    <li>To help build a world filled with more healed individuals, where people feel seen, safe, and supported.</li>
+                    <li>To nurture care-based communities that prioritize holistic well-being and deeper engagement with life’s emotional landscape.</li>
+                  </ul>
                 </p>
               </CardContent>
             </Card>
