@@ -27,7 +27,7 @@ const About = () => {
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                  At Ehsaas Therapy Centre (ETC), we believe in creating a world where healing is not just possible, but accessible, compassionate, and deeply transformative.
-Our name, Ehsaas, meaning “feeling” or “experience,” is central to everything we do. Our acronym, ETC, serves as a gentle reminder that there is so much more to each of us: more healing, more growth, more connection, more freedom, and more life to experience.
+Our name, Ehsaas, meaning "feeling" or "experience," is central to everything we do. Our acronym, ETC, serves as a gentle reminder that there is so much more to each of us: more healing, more growth, more connection, more freedom, and more life to experience.
 
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -36,7 +36,7 @@ Our name, Ehsaas, meaning “feeling” or “experience,” is central to every
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                 What truly distinguishes us is our unwavering commitment to building a safe space not only for our clients but also for our mental health professionals. We firmly believe that the well-being of therapists is integral to the quality of care they provide. Therefore, we ensure fair compensation, professional respect, and an emotionally supportive working environment without compromise.
-We offer a wide range of therapists, each with unique expertise, language skills, lived experience, and therapeutic style, ensuring that care is not only competent but also truly affirming. Whether you’re seeking cultural sensitivity, identity-affirming support, or a specialist in a particular area, we are here to match you with the right therapist. This ensures that clients can find a therapist who truly resonates with them. Because healing is not one-size-fits-all, and at ETC, we deeply respect that.
+We offer a wide range of therapists, each with unique expertise, language skills, lived experience, and therapeutic style, ensuring that care is not only competent but also truly affirming. Whether you're seeking cultural sensitivity, identity-affirming support, or a specialist in a particular area, we are here to match you with the right therapist. This ensures that clients can find a therapist who truly resonates with them. Because healing is not one-size-fits-all, and at ETC, we deeply respect that.
 
                 </p>
               </CardContent>
@@ -67,9 +67,8 @@ We offer a wide range of therapists, each with unique expertise, language skills
                   <h2 className="text-3xl font-bold text-foreground">Our Vision</h2>
                 </div>
                 <ul className="text-lg text-muted-foreground leading-relaxed space-y-2">
-To help build a world filled with more healed individuals, where people feel seen, safe, and supported.
-To nurture care-based communities that prioritize holistic well-being and deeper engagement with life’s emotional landscape.
-
+                  <li>• To help build a world filled with more healed individuals, where people feel seen, safe, and supported.</li>
+                  <li>• To nurture care-based communities that prioritize holistic well-being and deeper engagement with life's emotional landscape.</li>
                 </ul>
               </CardContent>
             </Card>
