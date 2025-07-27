@@ -27,7 +27,8 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 10AM-7PM"],
     totalSessions: 300,
     calendlyLink: "https://calendly.com/prakshita-kamble",
-    image: "/lovable-uploads/15c8f76e-a7f3-457f-9904-090d4b413d5a.png"
+    image: "/lovable-uploads/2603e6b0-6efa-463b-83d5-bcf6a4b1b340.png"
+    
   },
   {
     id: "3",
@@ -55,7 +56,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Fri: 11AM-8PM"],
     totalSessions: 450,
     calendlyLink: "https://calendly.com/ekta-singh",
-    image: "/lovable-uploads/2603e6b0-6efa-463b-83d5-bcf6a4b1b340.png"
+    image: "/lovable-uploads/15c8f76e-a7f3-457f-9904-090d4b413d5a.png"
   },
   {
     id: "5",
