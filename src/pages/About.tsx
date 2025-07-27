@@ -51,14 +51,12 @@ const About = () => {
                   <Target className="w-8 h-8 text-primary mr-4" />
                   <h2 className="text-3xl font-bold text-foreground">Our Mission</h2>
                 </div>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  <ul>
-                    <li>To provide accessible, inclusive, and high-quality therapy rooted in safety, empathy, and respect.</li>
-                    <li>To create emotionally safe and empowering spaces for both clients and mental health professionals.</li>
-                    <li>To offer trauma-informed, queer-affirmative, neurodivergent-aware, and sex-positive therapy from skilled, diverse practitioners.</li>
-                    <li>To remind everyone that they are more than their pain and that healing leads to more: more growth, more connection, more freedom, and more life to experience.</li>
-                  </ul>
-                </p>
+                <ul className="text-lg text-muted-foreground leading-relaxed list-disc list-inside space-y-2">
+                  <li>To provide accessible, inclusive, and high-quality therapy rooted in safety, empathy, and respect.</li>
+                  <li>To create emotionally safe and empowering spaces for both clients and mental health professionals.</li>
+                  <li>To offer trauma-informed, queer-affirmative, neurodivergent-aware, and sex-positive therapy from skilled, diverse practitioners.</li>
+                  <li>To remind everyone that they are more than their pain and that healing leads to more: more growth, more connection, more freedom, and more life to experience.</li>
+                </ul>
               </CardContent>
             </Card>
 
