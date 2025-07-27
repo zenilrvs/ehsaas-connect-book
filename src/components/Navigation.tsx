@@ -28,7 +28,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <img src="/lovable-uploads/c25d1384-6c00-42cb-b0bb-7157d822376b.png" alt="EHSAAS" className="h-12 w-auto" />
-            <span className="text-xl font-bold text-primary">EHSAAS</span>
+            <span className="text-xl font-bold text-primary">Ehsaas Therapy Centre</span>
           </Link>
 
           {/* Desktop Navigation */}
