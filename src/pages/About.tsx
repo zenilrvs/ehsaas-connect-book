@@ -26,18 +26,18 @@ const About = () => {
                   <h2 className="text-3xl font-bold text-foreground">About EHSAAS</h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                 At Ehsaas Therapy Centre (ETC), we believe in creating a world where healing is not just possible, but accessible, compassionate, and deeply transformative.
-Our name, Ehsaas, meaning “feeling” or “experience,” is central to everything we do. Our acronym, ETC, serves as a gentle reminder that there is so much more to each of us: more healing, more growth, more connection, more freedom, and more life to experience.
-
+                  EHSAAS, meaning "feelings" in Hindi and Urdu, represents our deep understanding of the human emotional experience. <br>
+                  We are a mental health platform that bridges the gap between those seeking help and qualified mental health professionals.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                 We provide a therapeutic space that is trauma-informed, queer-affirmative, neurodivergent-aware, and sex-positive, honouring and celebrating the unique journeys of individuals.Our diverse therapeutic approaches are designed to help you build insight and process thoughts and emotions, safely and with compassion, fostering deeper healing.
-
+                  Founded with the belief that mental health care should be accessible, affordable, and stigma-free, EHSAAS provides 
+                  a safe space where individuals can explore their emotions, work through challenges, and develop the tools they need 
+                  for lasting wellness.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                What truly distinguishes us is our unwavering commitment to building a safe space not only for our clients but also for our mental health professionals. We firmly believe that the well-being of therapists is integral to the quality of care they provide. Therefore, we ensure fair compensation, professional respect, and an emotionally supportive working environment without compromise.
-We offer a wide range of therapists, each with unique expertise, language skills, lived experience, and therapeutic style, ensuring that care is not only competent but also truly affirming. Whether you’re seeking cultural sensitivity, identity-affirming support, or a specialist in a particular area, we are here to match you with the right therapist. This ensures that clients can find a therapist who truly resonates with them. Because healing is not one-size-fits-all, and at ETC, we deeply respect that.
-
+                  Our platform offers a comprehensive range of services including individual therapy, couples counseling, group sessions, 
+                  and specialized programs for different life stages and challenges. <br> Every session is conducted by licensed professionals 
+                  who are committed to creating a non-judgmental, supportive environment.
                 </p>
               </CardContent>
             </Card>
@@ -51,12 +51,12 @@ We offer a wide range of therapists, each with unique expertise, language skills
                   <Target className="w-8 h-8 text-primary mr-4" />
                   <h2 className="text-3xl font-bold text-foreground">Our Mission</h2>
                 </div>
-                <ul className="text-lg text-muted-foreground leading-relaxed space-y-2">
-                  <li>• To provide accessible, inclusive, and high-quality therapy rooted in safety, empathy, and respect.</li>
-                  <li>• To create emotionally safe and empowering spaces for both clients and mental health professionals.</li>
-                  <li>• To offer trauma-informed, queer-affirmative, neurodivergent-aware, and sex-positive therapy from skilled, diverse practitioners.</li>
-                  <li>• To remind everyone that they are more than their pain and that healing leads to more: more growth, more connection, more freedom, and more life to experience.</li>
-                </ul>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  To make quality mental health care accessible to everyone by connecting individuals with compassionate, 
+                  qualified therapists in a convenient, confidential, and culturally sensitive environment. We strive to 
+                  break down barriers to mental health treatment and create a world where seeking help is seen as a sign 
+                  of strength, not weakness.
+                </p>
               </CardContent>
             </Card>
 
@@ -66,11 +66,13 @@ We offer a wide range of therapists, each with unique expertise, language skills
                   <Eye className="w-8 h-8 text-secondary mr-4" />
                   <h2 className="text-3xl font-bold text-foreground">Our Vision</h2>
                 </div>
-                <ul className="text-lg text-muted-foreground leading-relaxed space-y-2">
-To help build a world filled with more healed individuals, where people feel seen, safe, and supported.
-To nurture care-based communities that prioritize holistic well-being and deeper engagement with life’s emotional landscape.
-
-                </ul>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  <ul>To be the leading mental health platform that transforms lives by making therapy as normal and accessible 
+                  as visiting a doctor for physical health. </ul> 
+                  <ul> We envision a society where mental wellness is prioritized, 
+                  stigma is eliminated, and every individual has the tools and support they need to live their fullest, 
+                  most authentic life.</ul>
+                </p>
               </CardContent>
             </Card>
           </div>
