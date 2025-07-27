@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 210 17% 98%;
+    --background: 0 0% 100%;
     --foreground: 215 25% 27%;
 
     --card: 0 0% 100%;
@@ -17,19 +17,19 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 27%;
 
-    --primary: 210 100% 56%;
+    --primary: 25 85% 54%; /* #E78824 */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 210 100% 70%;
-    --primary-dark: 210 100% 45%;
+    --primary-light: 25 85% 65%;
+    --primary-dark: 25 85% 45%;
 
-    --secondary: 168 76% 42%;
+    --secondary: 183 48% 58%; /* #62C7CD */
     --secondary-foreground: 0 0% 100%;
-    --secondary-light: 168 76% 55%;
+    --secondary-light: 183 48% 70%;
 
     --muted: 215 16% 94%;
     --muted-foreground: 215 13% 65%;
 
-    --accent: 45 93% 47%;
+    --accent: 183 48% 58%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -37,12 +37,12 @@ All colors MUST be HSL.
 
     --border: 215 16% 87%;
     --input: 215 16% 87%;
-    --ring: 210 100% 56%;
+    --ring: 25 85% 54%;
 
     /* Healthcare specific colors */
-    --trust: 210 100% 56%;
-    --calm: 168 76% 42%;
-    --warm: 45 93% 47%;
+    --trust: 183 48% 58%;
+    --calm: 183 48% 70%;
+    --warm: 25 85% 54%;
     --success: 142 76% 36%;
     --warning: 38 92% 50%;
 

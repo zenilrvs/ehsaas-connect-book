@@ -1,0 +1,149 @@
+import { Heart, Target, Eye, User } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
+import Navigation from "@/components/Navigation";
+
+const About = () => {
+  return (
+    <div className="min-h-screen bg-background">
+      <Navigation />
+      
+      <div className="py-20">
+        <div className="max-w-6xl mx-auto px-4">
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h1 className="text-5xl font-bold text-foreground mb-6">About EHSAAS</h1>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Dedicated to providing compassionate, professional mental health care that empowers individuals to heal and thrive.
+            </p>
+          </div>
+
+          {/* About EHSAAS */}
+          <div className="mb-20">
+            <Card className="p-8">
+              <CardContent className="pt-6">
+                <div className="flex items-center mb-6">
+                  <Heart className="w-8 h-8 text-primary mr-4" />
+                  <h2 className="text-3xl font-bold text-foreground">About EHSAAS</h2>
+                </div>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                  EHSAAS, meaning "feelings" in Hindi and Urdu, represents our deep understanding of the human emotional experience. 
+                  We are a mental health platform that bridges the gap between those seeking help and qualified mental health professionals.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                  Founded with the belief that mental health care should be accessible, affordable, and stigma-free, EHSAAS provides 
+                  a safe space where individuals can explore their emotions, work through challenges, and develop the tools they need 
+                  for lasting wellness.
+                </p>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  Our platform offers a comprehensive range of services including individual therapy, couples counseling, group sessions, 
+                  and specialized programs for different life stages and challenges. Every session is conducted by licensed professionals 
+                  who are committed to creating a non-judgmental, supportive environment.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Mission & Vision */}
+          <div className="grid md:grid-cols-2 gap-8 mb-20">
+            <Card className="p-8">
+              <CardContent className="pt-6">
+                <div className="flex items-center mb-6">
+                  <Target className="w-8 h-8 text-primary mr-4" />
+                  <h2 className="text-3xl font-bold text-foreground">Our Mission</h2>
+                </div>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  To make quality mental health care accessible to everyone by connecting individuals with compassionate, 
+                  qualified therapists in a convenient, confidential, and culturally sensitive environment. We strive to 
+                  break down barriers to mental health treatment and create a world where seeking help is seen as a sign 
+                  of strength, not weakness.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="p-8">
+              <CardContent className="pt-6">
+                <div className="flex items-center mb-6">
+                  <Eye className="w-8 h-8 text-secondary mr-4" />
+                  <h2 className="text-3xl font-bold text-foreground">Our Vision</h2>
+                </div>
+                <p className="text-lg text-muted-foreground leading-relaxed">
+                  To be the leading mental health platform that transforms lives by making therapy as normal and accessible 
+                  as visiting a doctor for physical health. We envision a society where mental wellness is prioritized, 
+                  stigma is eliminated, and every individual has the tools and support they need to live their fullest, 
+                  most authentic life.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* About Founder */}
+          <div className="mb-20">
+            <Card className="p-8">
+              <CardContent className="pt-6">
+                <div className="flex items-center mb-6">
+                  <User className="w-8 h-8 text-secondary mr-4" />
+                  <h2 className="text-3xl font-bold text-foreground">About the Founder</h2>
+                </div>
+                <div className="grid md:grid-cols-3 gap-8 items-center">
+                  <div className="md:col-span-1">
+                    <div className="w-48 h-48 mx-auto bg-gradient-hero rounded-full flex items-center justify-center">
+                      <User className="w-24 h-24 text-white" />
+                    </div>
+                  </div>
+                  <div className="md:col-span-2">
+                    <h3 className="text-2xl font-bold text-foreground mb-4">Dr. [Founder Name]</h3>
+                    <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                      With over [X] years of experience in clinical psychology and mental health advocacy, our founder 
+                      recognized the urgent need for accessible, quality mental health care in our communities. Having 
+                      witnessed firsthand the transformative power of therapy, they founded EHSAAS to ensure that 
+                      geographical, financial, and social barriers never prevent someone from getting the help they need.
+                    </p>
+                    <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                      Dr. [Name] holds a [Degree] from [Institution] and is a licensed clinical psychologist specializing 
+                      in [Specializations]. Their passion for mental health extends beyond individual practice to systemic 
+                      change, working to destigmatize mental health conversations in our society.
+                    </p>
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      "Mental health is not a luxury, it's a necessity. Everyone deserves to feel heard, understood, 
+                      and supported on their journey to wellness." - Dr. [Founder Name]
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Values */}
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-12">Our Core Values</h2>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Heart className="w-8 h-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Compassion</h3>
+                <p className="text-muted-foreground">We approach every interaction with empathy, understanding, and genuine care.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Target className="w-8 h-8 text-secondary" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Excellence</h3>
+                <p className="text-muted-foreground">We maintain the highest standards of professional care and ethical practice.</p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Eye className="w-8 h-8 text-accent" />
+                </div>
+                <h3 className="text-xl font-semibold mb-3">Accessibility</h3>
+                <p className="text-muted-foreground">We believe mental health care should be available to everyone, everywhere.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

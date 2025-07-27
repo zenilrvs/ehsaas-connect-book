@@ -98,5 +98,19 @@ export const psychologists: Psychologist[] = [
     languages: ["Hindi", "English"],
     availability: ["Mon-Fri: 10 AM - 6 PM"],
     calendlyLink: "https://calendly.com/dr-sethia"
+  },
+  {
+    id: "8",
+    name: "Dr. Kavya Joshi",
+    title: "Art Therapist",
+    specializations: ["Art Therapy", "Creative Expression", "Emotional Healing"],
+    experience: 4,
+    rating: 4.6,
+    totalSessions: 500,
+    image: "/api/placeholder/150/150",
+    bio: "Dr. Kavya combines traditional therapy with creative arts to help clients express emotions and find healing through artistic expression.",
+    languages: ["Hindi", "English", "Marathi"],
+    availability: ["Mon-Fri: 11 AM - 7 PM", "Sat: 10 AM - 2 PM"],
+    calendlyLink: "https://calendly.com/dr-kavya-joshi"
   }
 ];
