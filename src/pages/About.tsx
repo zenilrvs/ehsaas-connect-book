@@ -66,11 +66,11 @@ We offer a wide range of therapists, each with unique expertise, language skills
                   <Eye className="w-8 h-8 text-secondary mr-4" />
                   <h2 className="text-3xl font-bold text-foreground">Our Vision</h2>
                 </div>
-                <p className="text-lg text-muted-foreground leading-relaxed">
+                <ul className="text-lg text-muted-foreground leading-relaxed space-y-2">
 To help build a world filled with more healed individuals, where people feel seen, safe, and supported.
 To nurture care-based communities that prioritize holistic well-being and deeper engagement with life’s emotional landscape.
 
-                </p>
+                </ul>
               </CardContent>
             </Card>
           </div>
