@@ -4,11 +4,10 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Navigation from "@/components/Navigation";
-
 const Contact = () => {
   const contactInfo = [{
     icon: Mail,
-    title: "Email", 
+    title: "Email",
     value: "sessions.ehsaas@gmail.com",
     description: "Send us your questions anytime",
     href: "mailto:sessions.ehsaas@gmail.com"
@@ -115,7 +114,7 @@ const Contact = () => {
             {/* Contact Information */}
             <div className="space-y-6">
               {/* Contact Methods */}
-              <Card className="p-6">
+              <Card className="p-6 px-[2px]">
                 <CardContent className="pt-6">
                   <h3 className="text-xl font-semibold text-foreground mb-6">Contact Information</h3>
                   <div className="space-y-6">
