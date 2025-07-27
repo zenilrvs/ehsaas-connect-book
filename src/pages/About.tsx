@@ -26,7 +26,7 @@ const About = () => {
                   <h2 className="text-3xl font-bold text-foreground">About EHSAAS</h2>
                 </div>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  EHSAAS, meaning "feelings" in Hindi and Urdu, represents our deep understanding of the human emotional experience. <br>
+                  EHSAAS, meaning "feelings" in Hindi and Urdu, represents our deep understanding of the human emotional experience. <br />
                   We are a mental health platform that bridges the gap between those seeking help and qualified mental health professionals.
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
@@ -36,7 +36,7 @@ const About = () => {
                 </p>
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   Our platform offers a comprehensive range of services including individual therapy, couples counseling, group sessions, 
-                  and specialized programs for different life stages and challenges. <br> Every session is conducted by licensed professionals 
+                  and specialized programs for different life stages and challenges. <br /> Every session is conducted by licensed professionals 
                   who are committed to creating a non-judgmental, supportive environment.
                 </p>
               </CardContent>
