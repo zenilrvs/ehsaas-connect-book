@@ -13,7 +13,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Fri: 9AM-6PM"],
     totalSessions: 500,
     calendlyLink: "https://calendly.com/sakshi-malagi",
-    image: "/lovable-uploads/cf716e71-18ac-45f6-ac67-5bbc6720a9e8.png"
+    image: "/lovable-uploads/987e39a6-46ca-48e0-b5f4-5b9ac3eb3c89.png"
   },
   {
     id: "2",
@@ -27,7 +27,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 10AM-7PM"],
     totalSessions: 300,
     calendlyLink: "https://calendly.com/prakshita-kamble",
-    image: "/lovable-uploads/2413e046-4764-4fdf-9ae7-273afcd7c4fd.png"
+    image: "/lovable-uploads/15c8f76e-a7f3-457f-9904-090d4b413d5a.png"
   },
   {
     id: "3",
@@ -41,7 +41,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Tue-Sat: 9AM-6PM"],
     totalSessions: 650,
     calendlyLink: "https://calendly.com/sejal-ketkar",
-    image: "/lovable-uploads/d87ae7bd-71ff-4123-a423-abaa5b6f2beb.png"
+    image: "/lovable-uploads/b84747ab-da01-4e65-9477-8177a48a3dc7.png"
   },
   {
     id: "4",
@@ -55,7 +55,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Fri: 11AM-8PM"],
     totalSessions: 450,
     calendlyLink: "https://calendly.com/ekta-singh",
-    image: "/lovable-uploads/8ffd1baf-0daa-405b-a9b2-4969d26aad71.png"
+    image: "/lovable-uploads/2603e6b0-6efa-463b-83d5-bcf6a4b1b340.png"
   },
   {
     id: "5",
@@ -69,7 +69,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 10AM-6PM"],
     totalSessions: 800,
     calendlyLink: "https://calendly.com/rasika-godbole",
-    image: "/lovable-uploads/f719546e-d3b5-4ffd-8ec7-7a7264cdf1a8.png"
+    image: "/lovable-uploads/77840dcc-8f17-4f1c-9278-f9b56f1efc73.png"
   },
   {
     id: "6",
@@ -83,7 +83,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Wed-Sun: 12PM-8PM"],
     totalSessions: 600,
     calendlyLink: "https://calendly.com/dee-therapist",
-    image: "/lovable-uploads/54f60663-e3f5-44dd-b848-1f7435a9850f.png"
+    image: "/lovable-uploads/e8add710-ddf6-41e4-ae3d-10bc9b6c19c9.png"
   },
   {
     id: "7",
@@ -97,7 +97,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Fri: 9AM-7PM"],
     totalSessions: 750,
     calendlyLink: "https://calendly.com/rohan-chandak",
-    image: "/lovable-uploads/b347fe95-4406-4c22-ba23-ec5fcb08a5c9.png"
+    image: "/lovable-uploads/a17b9578-8553-49a2-a75b-78a03de25a20.png"
   },
   {
     id: "8",
@@ -111,7 +111,7 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Sat: 9AM-6PM"],
     totalSessions: 1000,
     calendlyLink: "https://calendly.com/priyadarshini-sethia",
-    image: "/lovable-uploads/d39c5cef-c68f-4cc4-8df2-3845155b3807.png"
+    image: "/lovable-uploads/2407e90e-97a9-4180-bfcc-8f0d15c8fde5.png"
   },
   {
     id: "9",
@@ -125,6 +125,6 @@ export const psychologists: Psychologist[] = [
     availability: ["Mon-Fri: 10AM-6PM"],
     totalSessions: 1200,
     calendlyLink: "https://calendly.com/dr-madalsa-agrawal",
-    image: "/lovable-uploads/402edfac-aefe-4bbb-a60f-83bb6806e59e.png"
+    image: "/lovable-uploads/129d0283-467d-4ef1-808d-b79865b95a07.png"
   }
 ];
