@@ -9,7 +9,7 @@ const Services = () => {
     {
       icon: Users,
       title: "Individual Therapy",
-      description: "One-on-one sessions with licensed psychologists to address personal challenges, mental health concerns, and life transitions.",
+      description: "One-on-one sessions with psychologists to address personal challenges, mental health concerns, and life transitions.",
       features: ["Personalized treatment plans", "Confidential sessions", "Flexible scheduling", "Evidence-based approaches"]
     },
     {
