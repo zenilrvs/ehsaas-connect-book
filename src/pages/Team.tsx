@@ -46,7 +46,7 @@ const Team = () => {
     setShowBookingModal(true);
   };
 
-  const handleBookingConfirm = (duration: 30 | 60, amount: number) => {
+  const handleBookingConfirm = (duration: number, amount: number) => {
     const bookingData: BookingSession = {
       duration,
       price: amount,
@@ -121,7 +121,7 @@ const Team = () => {
               Available Psychologists ({filteredPsychologists.length})
             </h2>
             <p className="text-muted-foreground">
-              All our psychologists offer sessions at ₹600 for 30 minutes and ₹900 for 60 minutes
+              Our psychologists offer sessions with flexible pricing based on their expertise
             </p>
           </div>
 
@@ -201,13 +201,12 @@ const Team = () => {
                       </div>
 
                       {/* Pricing */}
-                      <div className="flex items-center gap-4 mb-4 text-sm">
-                        <span className="bg-primary/10 text-primary px-2 py-1 rounded">
-                          ₹600/30min
-                        </span>
-                        <span className="bg-primary/10 text-primary px-2 py-1 rounded">
-                          ₹900/60min
-                        </span>
+                      <div className="flex items-center gap-2 mb-4 text-sm">
+                        {Object.entries(psychologist.pricing).map(([duration, price]) => (
+                          <span key={duration} className="bg-primary/10 text-primary px-2 py-1 rounded">
+                            ₹{price}/{duration}min
+                          </span>
+                        ))}
                       </div>
 
                       {/* Actions */}

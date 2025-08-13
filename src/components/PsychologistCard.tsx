@@ -82,16 +82,16 @@ export const PsychologistCard = ({ psychologist, onViewProfile }: PsychologistCa
 
         {/* Pricing */}
         <div className="mb-4 p-3 bg-muted/50 rounded-lg">
-          <div className="flex justify-between items-center text-sm">
-            <div className="text-center">
-              <div className="font-semibold text-primary">₹{psychologist.pricing[30]}</div>
-              <div className="text-muted-foreground text-xs">30 min</div>
-            </div>
-            <div className="w-px h-8 bg-border"></div>
-            <div className="text-center">
-              <div className="font-semibold text-primary">₹{psychologist.pricing[60]}</div>
-              <div className="text-muted-foreground text-xs">60 min</div>
-            </div>
+          <div className={`flex ${Object.keys(psychologist.pricing).length === 1 ? 'justify-center' : 'justify-between'} items-center text-sm gap-4`}>
+            {Object.entries(psychologist.pricing).map(([duration, price], index, array) => (
+              <div key={duration} className="text-center">
+                <div className="font-semibold text-primary">₹{price}</div>
+                <div className="text-muted-foreground text-xs">{duration} min</div>
+                {index < array.length - 1 && array.length > 1 && (
+                  <div className="w-px h-8 bg-border absolute right-0 top-0"></div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
 

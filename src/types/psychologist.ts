@@ -17,7 +17,7 @@ export interface Psychologist {
 }
 
 export interface BookingSession {
-  duration: 30 | 60;
+  duration: number;
   price: number;
   psychologistId: string;
 }
