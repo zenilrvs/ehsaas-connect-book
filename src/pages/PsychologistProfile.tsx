@@ -116,12 +116,12 @@ const PsychologistProfile = () => {
           <h2 className="font-semibold text-foreground mb-4">Session Rates</h2>
           <div className="grid grid-cols-2 gap-4">
             <div className="bg-muted/30 p-4 rounded-lg text-center">
-              <div className="text-2xl font-bold text-primary mb-1">₹600</div>
+              <div className="text-2xl font-bold text-primary mb-1">₹{psychologist.pricing[30]}</div>
               <div className="text-sm text-muted-foreground">30 minutes</div>
               <div className="text-xs text-muted-foreground mt-1">Quick consultation</div>
             </div>
             <div className="bg-muted/30 p-4 rounded-lg text-center">
-              <div className="text-2xl font-bold text-primary mb-1">₹900</div>
+              <div className="text-2xl font-bold text-primary mb-1">₹{psychologist.pricing[60]}</div>
               <div className="text-sm text-muted-foreground">60 minutes</div>
               <div className="text-xs text-muted-foreground mt-1">In-depth session</div>
             </div>

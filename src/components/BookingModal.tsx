@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, Star, Calendar, CreditCard } from "lucide-react";
-import { Psychologist, PRICING } from "@/types/psychologist";
+import { Psychologist } from "@/types/psychologist";
 
 interface BookingModalProps {
   psychologist: Psychologist | null;
@@ -19,7 +19,7 @@ export const BookingModal = ({ psychologist, isOpen, onClose, onBookingConfirm }
   if (!psychologist) return null;
 
   const handlePayment = () => {
-    const amount = PRICING[selectedDuration];
+    const amount = psychologist.pricing[selectedDuration];
     onBookingConfirm(selectedDuration, amount);
   };
 
@@ -78,7 +78,7 @@ export const BookingModal = ({ psychologist, isOpen, onClose, onBookingConfirm }
                 <div className="text-center">
                   <Clock className="w-5 h-5 mx-auto mb-2 text-primary" />
                   <div className="font-semibold text-foreground">30 Minutes</div>
-                  <div className="text-lg font-bold text-primary mt-1">₹600</div>
+                  <div className="text-lg font-bold text-primary mt-1">₹{psychologist.pricing[30]}</div>
                   <div className="text-xs text-muted-foreground">Quick consultation</div>
                 </div>
               </Card>
@@ -94,7 +94,7 @@ export const BookingModal = ({ psychologist, isOpen, onClose, onBookingConfirm }
                 <div className="text-center">
                   <Clock className="w-5 h-5 mx-auto mb-2 text-primary" />
                   <div className="font-semibold text-foreground">60 Minutes</div>
-                  <div className="text-lg font-bold text-primary mt-1">₹900</div>
+                  <div className="text-lg font-bold text-primary mt-1">₹{psychologist.pricing[60]}</div>
                   <div className="text-xs text-muted-foreground">In-depth session</div>
                   <Badge variant="secondary" className="mt-1 text-xs">Popular</Badge>
                 </div>
@@ -110,7 +110,7 @@ export const BookingModal = ({ psychologist, isOpen, onClose, onBookingConfirm }
             </div>
             <div className="flex justify-between items-center mb-3">
               <span className="text-sm text-muted-foreground">Amount:</span>
-              <span className="text-lg font-bold text-primary">₹{PRICING[selectedDuration]}</span>
+              <span className="text-lg font-bold text-primary">₹{psychologist.pricing[selectedDuration]}</span>
             </div>
             <div className="border-t pt-2">
               <p className="text-xs text-muted-foreground">
@@ -135,7 +135,7 @@ export const BookingModal = ({ psychologist, isOpen, onClose, onBookingConfirm }
               className="w-full"
             >
               <CreditCard className="w-4 h-4 mr-2" />
-              Pay ₹{PRICING[selectedDuration]}
+              Pay ₹{psychologist.pricing[selectedDuration]}
             </Button>
           </div>
         </div>

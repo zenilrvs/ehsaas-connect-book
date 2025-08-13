@@ -11,6 +11,10 @@ export interface Psychologist {
   languages: string[];
   availability: string[];
   calendlyLink: string;
+  pricing: {
+    30: number;
+    60: number;
+  };
 }
 
 export interface BookingSession {
@@ -19,7 +23,4 @@ export interface BookingSession {
   psychologistId: string;
 }
 
-export const PRICING = {
-  30: 600, // 30 minutes for 600 rupees
-  60: 900, // 1 hour for 900 rupees
-} as const;
+// Individual pricing is now managed per psychologist in their pricing property

@@ -84,12 +84,12 @@ export const PsychologistCard = ({ psychologist, onViewProfile }: PsychologistCa
         <div className="mb-4 p-3 bg-muted/50 rounded-lg">
           <div className="flex justify-between items-center text-sm">
             <div className="text-center">
-              <div className="font-semibold text-primary">₹600</div>
+              <div className="font-semibold text-primary">₹{psychologist.pricing[30]}</div>
               <div className="text-muted-foreground text-xs">30 min</div>
             </div>
             <div className="w-px h-8 bg-border"></div>
             <div className="text-center">
-              <div className="font-semibold text-primary">₹900</div>
+              <div className="font-semibold text-primary">₹{psychologist.pricing[60]}</div>
               <div className="text-muted-foreground text-xs">60 min</div>
             </div>
           </div>
