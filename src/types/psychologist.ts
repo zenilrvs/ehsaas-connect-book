@@ -12,8 +12,7 @@ export interface Psychologist {
   availability: string[];
   calendlyLink: string;
   pricing: {
-    30: number;
-    60: number;
+    [duration: number]: number;
   };
 }
 

@@ -10,11 +10,12 @@ interface BookingModalProps {
   psychologist: Psychologist | null;
   isOpen: boolean;
   onClose: () => void;
-  onBookingConfirm: (duration: 30 | 60, amount: number) => void;
+  onBookingConfirm: (duration: number, amount: number) => void;
 }
 
 export const BookingModal = ({ psychologist, isOpen, onClose, onBookingConfirm }: BookingModalProps) => {
-  const [selectedDuration, setSelectedDuration] = useState<30 | 60>(30);
+  const availableDurations = psychologist ? Object.keys(psychologist.pricing).map(Number).sort() : [];
+  const [selectedDuration, setSelectedDuration] = useState<number>(availableDurations[0] || 30);
 
   if (!psychologist) return null;
 
@@ -67,38 +68,27 @@ export const BookingModal = ({ psychologist, isOpen, onClose, onBookingConfirm }
           <div>
             <h4 className="font-medium mb-3 text-foreground">Choose Session Duration</h4>
             <div className="grid grid-cols-2 gap-3">
-              <Card 
-                className={`p-4 cursor-pointer transition-all duration-200 hover:shadow-medium ${
-                  selectedDuration === 30 
-                    ? 'ring-2 ring-primary bg-primary/5' 
-                    : 'hover:bg-muted/50'
-                }`}
-                onClick={() => setSelectedDuration(30)}
-              >
-                <div className="text-center">
-                  <Clock className="w-5 h-5 mx-auto mb-2 text-primary" />
-                  <div className="font-semibold text-foreground">30 Minutes</div>
-                  <div className="text-lg font-bold text-primary mt-1">₹{psychologist.pricing[30]}</div>
-                  <div className="text-xs text-muted-foreground">Quick consultation</div>
-                </div>
-              </Card>
-              
-              <Card 
-                className={`p-4 cursor-pointer transition-all duration-200 hover:shadow-medium ${
-                  selectedDuration === 60 
-                    ? 'ring-2 ring-primary bg-primary/5' 
-                    : 'hover:bg-muted/50'
-                }`}
-                onClick={() => setSelectedDuration(60)}
-              >
-                <div className="text-center">
-                  <Clock className="w-5 h-5 mx-auto mb-2 text-primary" />
-                  <div className="font-semibold text-foreground">60 Minutes</div>
-                  <div className="text-lg font-bold text-primary mt-1">₹{psychologist.pricing[60]}</div>
-                  <div className="text-xs text-muted-foreground">In-depth session</div>
-                  <Badge variant="secondary" className="mt-1 text-xs">Popular</Badge>
-                </div>
-              </Card>
+              {availableDurations.map((duration) => (
+                <Card 
+                  key={duration}
+                  className={`p-4 cursor-pointer transition-all duration-200 hover:shadow-medium ${
+                    selectedDuration === duration 
+                      ? 'ring-2 ring-primary bg-primary/5' 
+                      : 'hover:bg-muted/50'
+                  }`}
+                  onClick={() => setSelectedDuration(duration)}
+                >
+                  <div className="text-center">
+                    <Clock className="w-5 h-5 mx-auto mb-2 text-primary" />
+                    <div className="font-semibold text-foreground">{duration} Minutes</div>
+                    <div className="text-lg font-bold text-primary mt-1">₹{psychologist.pricing[duration]}</div>
+                    <div className="text-xs text-muted-foreground">
+                      {duration <= 30 ? 'Quick consultation' : 'In-depth session'}
+                    </div>
+                    {duration >= 50 && <Badge variant="secondary" className="mt-1 text-xs">Popular</Badge>}
+                  </div>
+                </Card>
+              ))}
             </div>
           </div>
 
