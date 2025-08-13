@@ -15,8 +15,8 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/sakshi-malagi",
     image: "/lovable-uploads/987e39a6-46ca-48e0-b5f4-5b9ac3eb3c89.png",
     pricing: {
-      30: 650,
-      60: 950
+      30: 600,
+      50: 900
     }
   },
   {
@@ -33,8 +33,8 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/prakshita-kamble",
     image: "/lovable-uploads/2603e6b0-6efa-463b-83d5-bcf6a4b1b340.png",
     pricing: {
-      30: 600,
-      60: 900
+      30: 900,
+      50: 1200
     }
   },
   {
@@ -51,8 +51,8 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/sejal-ketkar",
     image: "/lovable-uploads/2407e90e-97a9-4180-bfcc-8f0d15c8fde5.png",
     pricing: {
-      30: 700,
-      60: 1000
+      30: 600,
+      50: 900
     }
   },
   {
@@ -69,8 +69,8 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/ekta-singh",
     image: "/lovable-uploads/15c8f76e-a7f3-457f-9904-090d4b413d5a.png",
     pricing: {
-      30: 580,
-      60: 850
+      30: 600,
+      50: 900
     }
   },
   {
@@ -87,30 +87,12 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/rasika-godbole",
     image: "/lovable-uploads/94da55a9-29ca-490c-ab5f-cfac6a49229b.png",
     pricing: {
-      30: 750,
-      60: 1100
+      30: 900,
+      50: 1200
     }
   },
   {
     id: "6",
-    name: "Dee",
-    title: "Psychologist",
-    specializations: ["LGBTQ+ Support", "Grief", "Family Issues", "Identity", "Belonging"],
-    experience: 4,
-    rating: 4.8,
-    bio: "Queer, occasionally caffeinated, and shaped by a life of constant movement, I know what it's like to feel unrooted. I hope to use my lived experience to create a grounded, accepting space while we navigate your world and explore conversations around grief, family disconnect, identity, and belonging.",
-    languages: ["English"],
-    availability: ["Wed-Sun: 12PM-8PM"],
-    totalSessions: 600,
-    calendlyLink: "https://calendly.com/dee-therapist",
-    image: "/lovable-uploads/e8add710-ddf6-41e4-ae3d-10bc9b6c19c9.png",
-    pricing: {
-      30: 700,
-      60: 950
-    }
-  },
-  {
-    id: "7",
     name: "Rohan Chandak",
     title: "Counselling Psychologist",
     specializations: ["Life Transitions", "Anxiety", "Relationship Counselling", "Emotional Well-being"],
@@ -123,12 +105,11 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/rohan-chandak",
     image: "/lovable-uploads/a17b9578-8553-49a2-a75b-78a03de25a20.png",
     pricing: {
-      30: 650,
-      60: 900
+      50: 1600
     }
   },
   {
-    id: "8",
+    id: "7",
     name: "Priyadarshini Sethia",
     title: "Founder & Psychologist",
     specializations: ["Therapy", "Mental Health", "Healing", "Emotional Support"],
@@ -141,12 +122,12 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/priyadarshini-sethia",
     image: "/lovable-uploads/77840dcc-8f17-4f1c-9278-f9b56f1efc73.png",
     pricing: {
-      30: 800,
-      60: 1200
+      30: 1400,
+      50: 1700
     }
   },
   {
-    id: "9",
+    id: "8",
     name: "Dr. Madalsa Agrawal",
     title: "Psychiatrist",
     specializations: ["Psychiatry", "Mental Health", "Holistic Approach", "Quality of Life"],
@@ -159,8 +140,8 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/dr-madalsa-agrawal",
     image: "/lovable-uploads/2bd68b7a-8cfb-44b2-bc0b-66479749297a.png",
     pricing: {
-      30: 900,
-      60: 1300
+      30: 1500,
+      60: 2000
     }
   }
 ];
