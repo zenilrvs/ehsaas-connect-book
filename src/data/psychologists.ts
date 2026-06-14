@@ -38,24 +38,6 @@ export const psychologists: Psychologist[] = [
     }
   },
   {
-    id: "4",
-    name: "Ekta Singh",
-    title: "Psychologist",
-    specializations: ["Anxiety", "Self-doubt", "Counselling Psychology", "Emotional Support"],
-    experience: 3,
-    rating: 4.8,
-    bio: "Therapist | M.Sc Counselling Psychology. I'm here to hold a safe space for anxious minds, sensitive souls, and those carrying quiet stories of self-doubt and uncertainty. Whatever you're holding — we'll start there, with care and compassion. You're welcome here, just as you are.",
-    languages: ["English", "Hindi"],
-    availability: ["Mon-Fri: 11AM-8PM"],
-    totalSessions: 450,
-    calendlyLink: "https://calendly.com/ekta-singh",
-    image: "/lovable-uploads/15c8f76e-a7f3-457f-9904-090d4b413d5a.png",
-    pricing: {
-      30: 600,
-      50: 900
-    }
-  },
-  {
     id: "5",
     name: "Rasika Godbole",
     title: "Psychologist",
