@@ -15,7 +15,6 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/sakshi-malagi",
     image: "/lovable-uploads/987e39a6-46ca-48e0-b5f4-5b9ac3eb3c89.png",
     pricing: {
-      30: 600,
       50: 900
     }
   },
@@ -33,7 +32,6 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/sejal-ketkar",
     image: "/lovable-uploads/2407e90e-97a9-4180-bfcc-8f0d15c8fde5.png",
     pricing: {
-      30: 600,
       50: 900
     }
   },
@@ -51,7 +49,6 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/rasika-godbole",
     image: "/lovable-uploads/94da55a9-29ca-490c-ab5f-cfac6a49229b.png",
     pricing: {
-      30: 900,
       50: 1200
     }
   },
@@ -86,7 +83,6 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/priyadarshini-sethia",
     image: "/lovable-uploads/77840dcc-8f17-4f1c-9278-f9b56f1efc73.png",
     pricing: {
-      30: 1400,
       50: 1700
     }
   },
@@ -104,7 +100,6 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/dr-madalsa-agrawal",
     image: "/lovable-uploads/2bd68b7a-8cfb-44b2-bc0b-66479749297a.png",
     pricing: {
-      30: 1500,
       60: 2000
     }
   }
