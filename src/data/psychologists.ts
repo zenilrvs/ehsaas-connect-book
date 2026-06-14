@@ -100,8 +100,9 @@ export const psychologists: Psychologist[] = [
     calendlyLink: "https://calendly.com/dr-madalsa-agrawal",
     image: "/lovable-uploads/2bd68b7a-8cfb-44b2-bc0b-66479749297a.png",
     pricing: {
+      30: 1500,
       50: 3000,
-      60: 2000
+      60: 3000
     }
   }
 ];
