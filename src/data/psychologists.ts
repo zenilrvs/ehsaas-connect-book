@@ -20,24 +20,6 @@ export const psychologists: Psychologist[] = [
     }
   },
   {
-    id: "2",
-    name: "Prakshita Kamble",
-    title: "Psychologist",
-    specializations: ["Emotional Support", "Self-acceptance", "Identity", "Mental Health"],
-    experience: 2,
-    rating: 4.8,
-    bio: "I offer a space where your feelings are welcome, your stories matter, and you don't have to shrink yourself to fit in. Come as you are - messy, quiet, tender, silly, or lost. There's room for it all here.",
-    languages: ["English"],
-    availability: ["Mon-Sat: 10AM-7PM"],
-    totalSessions: 300,
-    calendlyLink: "https://calendly.com/prakshita-kamble",
-    image: "/lovable-uploads/2603e6b0-6efa-463b-83d5-bcf6a4b1b340.png",
-    pricing: {
-      30: 900,
-      50: 1200
-    }
-  },
-  {
     id: "3",
     name: "Sejal Ketkar",
     title: "Psychologist",
